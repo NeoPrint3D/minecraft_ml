@@ -1,12 +1,11 @@
-import time
 import PySimpleGUI as sg
 import cv2 as cv
 import pytesseract as pt
 import pyautogui as pg
 from PIL import Image
 import re
-import keyboard as kb
-import mouse as m
+#import mouse as m     import these to control the user with mouse or keyboard
+#import keyboard as kb          
 mx,my=pg.size()
 print(mx,my)
 def get_text(image):
